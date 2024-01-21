@@ -1,14 +1,14 @@
 //
-//  devolvajaTests.swift
-//  devolvajaTests
+//  DevolvaJaTests.swift
+//  DevolvaJaTests
 //
 //  Created by Joao Leonardo Morganti on 21/01/24.
 //
 
 import XCTest
-@testable import devolvaja
+@testable import DevolvaJa
 
-final class devolvajaTests: XCTestCase {
+final class DevolvaJaTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

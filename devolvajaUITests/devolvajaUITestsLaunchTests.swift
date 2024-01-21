@@ -1,13 +1,13 @@
 //
-//  devolvajaUITestsLaunchTests.swift
-//  devolvajaUITests
+//  DevolvaJaUITestsLaunchTests.swift
+//  DevolvaJaUITests
 //
 //  Created by Joao Leonardo Morganti on 21/01/24.
 //
 
 import XCTest
 
-final class devolvajaUITestsLaunchTests: XCTestCase {
+final class DevolvaJaUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

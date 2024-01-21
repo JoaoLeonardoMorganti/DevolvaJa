@@ -7,61 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1641DFE82B5D9E3300B391A0 /* devolvajaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1641DFE72B5D9E3300B391A0 /* devolvajaApp.swift */; };
-		1641DFEA2B5D9E3300B391A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1641DFE92B5D9E3300B391A0 /* ContentView.swift */; };
-		1641DFEC2B5D9E3500B391A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1641DFEB2B5D9E3500B391A0 /* Assets.xcassets */; };
-		1641DFEF2B5D9E3500B391A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1641DFEE2B5D9E3500B391A0 /* Preview Assets.xcassets */; };
-		1641DFF92B5D9E3500B391A0 /* devolvajaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1641DFF82B5D9E3500B391A0 /* devolvajaTests.swift */; };
-		1641E0032B5D9E3500B391A0 /* devolvajaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1641E0022B5D9E3500B391A0 /* devolvajaUITests.swift */; };
-		1641E0052B5D9E3500B391A0 /* devolvajaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1641E0042B5D9E3500B391A0 /* devolvajaUITestsLaunchTests.swift */; };
+		164E77FA2B5DBC580069CCE2 /* DevolvaJaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164E77F92B5DBC580069CCE2 /* DevolvaJaApp.swift */; };
+		164E77FC2B5DBC580069CCE2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164E77FB2B5DBC580069CCE2 /* ContentView.swift */; };
+		164E77FE2B5DBC590069CCE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 164E77FD2B5DBC590069CCE2 /* Assets.xcassets */; };
+		164E78012B5DBC590069CCE2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 164E78002B5DBC590069CCE2 /* Preview Assets.xcassets */; };
+		164E780B2B5DBC590069CCE2 /* DevolvaJaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164E780A2B5DBC590069CCE2 /* DevolvaJaTests.swift */; };
+		164E78152B5DBC590069CCE2 /* DevolvaJaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164E78142B5DBC590069CCE2 /* DevolvaJaUITests.swift */; };
+		164E78172B5DBC590069CCE2 /* DevolvaJaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164E78162B5DBC590069CCE2 /* DevolvaJaUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1641DFF52B5D9E3500B391A0 /* PBXContainerItemProxy */ = {
+		164E78072B5DBC590069CCE2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1641DFDC2B5D9E3300B391A0 /* Project object */;
+			containerPortal = 164E77EE2B5DBC580069CCE2 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1641DFE32B5D9E3300B391A0;
-			remoteInfo = devolvaja;
+			remoteGlobalIDString = 164E77F52B5DBC580069CCE2;
+			remoteInfo = DevolvaJa;
 		};
-		1641DFFF2B5D9E3500B391A0 /* PBXContainerItemProxy */ = {
+		164E78112B5DBC590069CCE2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1641DFDC2B5D9E3300B391A0 /* Project object */;
+			containerPortal = 164E77EE2B5DBC580069CCE2 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1641DFE32B5D9E3300B391A0;
-			remoteInfo = devolvaja;
+			remoteGlobalIDString = 164E77F52B5DBC580069CCE2;
+			remoteInfo = DevolvaJa;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1641DFE42B5D9E3300B391A0 /* devolvaja.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = devolvaja.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1641DFE72B5D9E3300B391A0 /* devolvajaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = devolvajaApp.swift; sourceTree = "<group>"; };
-		1641DFE92B5D9E3300B391A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		1641DFEB2B5D9E3500B391A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1641DFEE2B5D9E3500B391A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		1641DFF42B5D9E3500B391A0 /* devolvajaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = devolvajaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1641DFF82B5D9E3500B391A0 /* devolvajaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = devolvajaTests.swift; sourceTree = "<group>"; };
-		1641DFFE2B5D9E3500B391A0 /* devolvajaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = devolvajaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1641E0022B5D9E3500B391A0 /* devolvajaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = devolvajaUITests.swift; sourceTree = "<group>"; };
-		1641E0042B5D9E3500B391A0 /* devolvajaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = devolvajaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		164E77F62B5DBC580069CCE2 /* DevolvaJa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevolvaJa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		164E77F92B5DBC580069CCE2 /* DevolvaJaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevolvaJaApp.swift; sourceTree = "<group>"; };
+		164E77FB2B5DBC580069CCE2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		164E77FD2B5DBC590069CCE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		164E78002B5DBC590069CCE2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		164E78062B5DBC590069CCE2 /* DevolvaJaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevolvaJaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		164E780A2B5DBC590069CCE2 /* DevolvaJaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevolvaJaTests.swift; sourceTree = "<group>"; };
+		164E78102B5DBC590069CCE2 /* DevolvaJaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevolvaJaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		164E78142B5DBC590069CCE2 /* DevolvaJaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevolvaJaUITests.swift; sourceTree = "<group>"; };
+		164E78162B5DBC590069CCE2 /* DevolvaJaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevolvaJaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1641DFE12B5D9E3300B391A0 /* Frameworks */ = {
+		164E77F32B5DBC580069CCE2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1641DFF12B5D9E3500B391A0 /* Frameworks */ = {
+		164E78032B5DBC590069CCE2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1641DFFB2B5D9E3500B391A0 /* Frameworks */ = {
+		164E780D2B5DBC590069CCE2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -71,142 +71,142 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1641DFDB2B5D9E3300B391A0 = {
+		164E77ED2B5DBC580069CCE2 = {
 			isa = PBXGroup;
 			children = (
-				1641DFE62B5D9E3300B391A0 /* devolvaja */,
-				1641DFF72B5D9E3500B391A0 /* devolvajaTests */,
-				1641E0012B5D9E3500B391A0 /* devolvajaUITests */,
-				1641DFE52B5D9E3300B391A0 /* Products */,
+				164E77F82B5DBC580069CCE2 /* DevolvaJa */,
+				164E78092B5DBC590069CCE2 /* DevolvaJaTests */,
+				164E78132B5DBC590069CCE2 /* DevolvaJaUITests */,
+				164E77F72B5DBC580069CCE2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1641DFE52B5D9E3300B391A0 /* Products */ = {
+		164E77F72B5DBC580069CCE2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1641DFE42B5D9E3300B391A0 /* devolvaja.app */,
-				1641DFF42B5D9E3500B391A0 /* devolvajaTests.xctest */,
-				1641DFFE2B5D9E3500B391A0 /* devolvajaUITests.xctest */,
+				164E77F62B5DBC580069CCE2 /* DevolvaJa.app */,
+				164E78062B5DBC590069CCE2 /* DevolvaJaTests.xctest */,
+				164E78102B5DBC590069CCE2 /* DevolvaJaUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1641DFE62B5D9E3300B391A0 /* devolvaja */ = {
+		164E77F82B5DBC580069CCE2 /* DevolvaJa */ = {
 			isa = PBXGroup;
 			children = (
-				1641DFE72B5D9E3300B391A0 /* devolvajaApp.swift */,
-				1641DFE92B5D9E3300B391A0 /* ContentView.swift */,
-				1641DFEB2B5D9E3500B391A0 /* Assets.xcassets */,
-				1641DFED2B5D9E3500B391A0 /* Preview Content */,
+				164E77F92B5DBC580069CCE2 /* DevolvaJaApp.swift */,
+				164E77FB2B5DBC580069CCE2 /* ContentView.swift */,
+				164E77FD2B5DBC590069CCE2 /* Assets.xcassets */,
+				164E77FF2B5DBC590069CCE2 /* Preview Content */,
 			);
-			path = devolvaja;
+			path = DevolvaJa;
 			sourceTree = "<group>";
 		};
-		1641DFED2B5D9E3500B391A0 /* Preview Content */ = {
+		164E77FF2B5DBC590069CCE2 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				1641DFEE2B5D9E3500B391A0 /* Preview Assets.xcassets */,
+				164E78002B5DBC590069CCE2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		1641DFF72B5D9E3500B391A0 /* devolvajaTests */ = {
+		164E78092B5DBC590069CCE2 /* DevolvaJaTests */ = {
 			isa = PBXGroup;
 			children = (
-				1641DFF82B5D9E3500B391A0 /* devolvajaTests.swift */,
+				164E780A2B5DBC590069CCE2 /* DevolvaJaTests.swift */,
 			);
-			path = devolvajaTests;
+			path = DevolvaJaTests;
 			sourceTree = "<group>";
 		};
-		1641E0012B5D9E3500B391A0 /* devolvajaUITests */ = {
+		164E78132B5DBC590069CCE2 /* DevolvaJaUITests */ = {
 			isa = PBXGroup;
 			children = (
-				1641E0022B5D9E3500B391A0 /* devolvajaUITests.swift */,
-				1641E0042B5D9E3500B391A0 /* devolvajaUITestsLaunchTests.swift */,
+				164E78142B5DBC590069CCE2 /* DevolvaJaUITests.swift */,
+				164E78162B5DBC590069CCE2 /* DevolvaJaUITestsLaunchTests.swift */,
 			);
-			path = devolvajaUITests;
+			path = DevolvaJaUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1641DFE32B5D9E3300B391A0 /* devolvaja */ = {
+		164E77F52B5DBC580069CCE2 /* DevolvaJa */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1641E0082B5D9E3500B391A0 /* Build configuration list for PBXNativeTarget "devolvaja" */;
+			buildConfigurationList = 164E781A2B5DBC590069CCE2 /* Build configuration list for PBXNativeTarget "DevolvaJa" */;
 			buildPhases = (
-				1641DFE02B5D9E3300B391A0 /* Sources */,
-				1641DFE12B5D9E3300B391A0 /* Frameworks */,
-				1641DFE22B5D9E3300B391A0 /* Resources */,
+				164E77F22B5DBC580069CCE2 /* Sources */,
+				164E77F32B5DBC580069CCE2 /* Frameworks */,
+				164E77F42B5DBC580069CCE2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = devolvaja;
-			productName = devolvaja;
-			productReference = 1641DFE42B5D9E3300B391A0 /* devolvaja.app */;
+			name = DevolvaJa;
+			productName = DevolvaJa;
+			productReference = 164E77F62B5DBC580069CCE2 /* DevolvaJa.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1641DFF32B5D9E3500B391A0 /* devolvajaTests */ = {
+		164E78052B5DBC590069CCE2 /* DevolvaJaTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1641E00B2B5D9E3500B391A0 /* Build configuration list for PBXNativeTarget "devolvajaTests" */;
+			buildConfigurationList = 164E781D2B5DBC590069CCE2 /* Build configuration list for PBXNativeTarget "DevolvaJaTests" */;
 			buildPhases = (
-				1641DFF02B5D9E3500B391A0 /* Sources */,
-				1641DFF12B5D9E3500B391A0 /* Frameworks */,
-				1641DFF22B5D9E3500B391A0 /* Resources */,
+				164E78022B5DBC590069CCE2 /* Sources */,
+				164E78032B5DBC590069CCE2 /* Frameworks */,
+				164E78042B5DBC590069CCE2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1641DFF62B5D9E3500B391A0 /* PBXTargetDependency */,
+				164E78082B5DBC590069CCE2 /* PBXTargetDependency */,
 			);
-			name = devolvajaTests;
-			productName = devolvajaTests;
-			productReference = 1641DFF42B5D9E3500B391A0 /* devolvajaTests.xctest */;
+			name = DevolvaJaTests;
+			productName = DevolvaJaTests;
+			productReference = 164E78062B5DBC590069CCE2 /* DevolvaJaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1641DFFD2B5D9E3500B391A0 /* devolvajaUITests */ = {
+		164E780F2B5DBC590069CCE2 /* DevolvaJaUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1641E00E2B5D9E3500B391A0 /* Build configuration list for PBXNativeTarget "devolvajaUITests" */;
+			buildConfigurationList = 164E78202B5DBC590069CCE2 /* Build configuration list for PBXNativeTarget "DevolvaJaUITests" */;
 			buildPhases = (
-				1641DFFA2B5D9E3500B391A0 /* Sources */,
-				1641DFFB2B5D9E3500B391A0 /* Frameworks */,
-				1641DFFC2B5D9E3500B391A0 /* Resources */,
+				164E780C2B5DBC590069CCE2 /* Sources */,
+				164E780D2B5DBC590069CCE2 /* Frameworks */,
+				164E780E2B5DBC590069CCE2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1641E0002B5D9E3500B391A0 /* PBXTargetDependency */,
+				164E78122B5DBC590069CCE2 /* PBXTargetDependency */,
 			);
-			name = devolvajaUITests;
-			productName = devolvajaUITests;
-			productReference = 1641DFFE2B5D9E3500B391A0 /* devolvajaUITests.xctest */;
+			name = DevolvaJaUITests;
+			productName = DevolvaJaUITests;
+			productReference = 164E78102B5DBC590069CCE2 /* DevolvaJaUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1641DFDC2B5D9E3300B391A0 /* Project object */ = {
+		164E77EE2B5DBC580069CCE2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
-					1641DFE32B5D9E3300B391A0 = {
+					164E77F52B5DBC580069CCE2 = {
 						CreatedOnToolsVersion = 15.2;
 					};
-					1641DFF32B5D9E3500B391A0 = {
+					164E78052B5DBC590069CCE2 = {
 						CreatedOnToolsVersion = 15.2;
-						TestTargetID = 1641DFE32B5D9E3300B391A0;
+						TestTargetID = 164E77F52B5DBC580069CCE2;
 					};
-					1641DFFD2B5D9E3500B391A0 = {
+					164E780F2B5DBC590069CCE2 = {
 						CreatedOnToolsVersion = 15.2;
-						TestTargetID = 1641DFE32B5D9E3300B391A0;
+						TestTargetID = 164E77F52B5DBC580069CCE2;
 					};
 				};
 			};
-			buildConfigurationList = 1641DFDF2B5D9E3300B391A0 /* Build configuration list for PBXProject "devolvaja" */;
+			buildConfigurationList = 164E77F12B5DBC580069CCE2 /* Build configuration list for PBXProject "DevolvaJa" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,36 +214,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 1641DFDB2B5D9E3300B391A0;
-			productRefGroup = 1641DFE52B5D9E3300B391A0 /* Products */;
+			mainGroup = 164E77ED2B5DBC580069CCE2;
+			productRefGroup = 164E77F72B5DBC580069CCE2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1641DFE32B5D9E3300B391A0 /* devolvaja */,
-				1641DFF32B5D9E3500B391A0 /* devolvajaTests */,
-				1641DFFD2B5D9E3500B391A0 /* devolvajaUITests */,
+				164E77F52B5DBC580069CCE2 /* DevolvaJa */,
+				164E78052B5DBC590069CCE2 /* DevolvaJaTests */,
+				164E780F2B5DBC590069CCE2 /* DevolvaJaUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1641DFE22B5D9E3300B391A0 /* Resources */ = {
+		164E77F42B5DBC580069CCE2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1641DFEF2B5D9E3500B391A0 /* Preview Assets.xcassets in Resources */,
-				1641DFEC2B5D9E3500B391A0 /* Assets.xcassets in Resources */,
+				164E78012B5DBC590069CCE2 /* Preview Assets.xcassets in Resources */,
+				164E77FE2B5DBC590069CCE2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1641DFF22B5D9E3500B391A0 /* Resources */ = {
+		164E78042B5DBC590069CCE2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1641DFFC2B5D9E3500B391A0 /* Resources */ = {
+		164E780E2B5DBC590069CCE2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,49 +253,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1641DFE02B5D9E3300B391A0 /* Sources */ = {
+		164E77F22B5DBC580069CCE2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1641DFEA2B5D9E3300B391A0 /* ContentView.swift in Sources */,
-				1641DFE82B5D9E3300B391A0 /* devolvajaApp.swift in Sources */,
+				164E77FC2B5DBC580069CCE2 /* ContentView.swift in Sources */,
+				164E77FA2B5DBC580069CCE2 /* DevolvaJaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1641DFF02B5D9E3500B391A0 /* Sources */ = {
+		164E78022B5DBC590069CCE2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1641DFF92B5D9E3500B391A0 /* devolvajaTests.swift in Sources */,
+				164E780B2B5DBC590069CCE2 /* DevolvaJaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1641DFFA2B5D9E3500B391A0 /* Sources */ = {
+		164E780C2B5DBC590069CCE2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1641E0032B5D9E3500B391A0 /* devolvajaUITests.swift in Sources */,
-				1641E0052B5D9E3500B391A0 /* devolvajaUITestsLaunchTests.swift in Sources */,
+				164E78152B5DBC590069CCE2 /* DevolvaJaUITests.swift in Sources */,
+				164E78172B5DBC590069CCE2 /* DevolvaJaUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1641DFF62B5D9E3500B391A0 /* PBXTargetDependency */ = {
+		164E78082B5DBC590069CCE2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1641DFE32B5D9E3300B391A0 /* devolvaja */;
-			targetProxy = 1641DFF52B5D9E3500B391A0 /* PBXContainerItemProxy */;
+			target = 164E77F52B5DBC580069CCE2 /* DevolvaJa */;
+			targetProxy = 164E78072B5DBC590069CCE2 /* PBXContainerItemProxy */;
 		};
-		1641E0002B5D9E3500B391A0 /* PBXTargetDependency */ = {
+		164E78122B5DBC590069CCE2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1641DFE32B5D9E3300B391A0 /* devolvaja */;
-			targetProxy = 1641DFFF2B5D9E3500B391A0 /* PBXContainerItemProxy */;
+			target = 164E77F52B5DBC580069CCE2 /* DevolvaJa */;
+			targetProxy = 164E78112B5DBC590069CCE2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1641E0062B5D9E3500B391A0 /* Debug */ = {
+		164E78182B5DBC590069CCE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -358,7 +358,7 @@
 			};
 			name = Debug;
 		};
-		1641E0072B5D9E3500B391A0 /* Release */ = {
+		164E78192B5DBC590069CCE2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -414,14 +414,14 @@
 			};
 			name = Release;
 		};
-		1641E0092B5D9E3500B391A0 /* Debug */ = {
+		164E781B2B5DBC590069CCE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"devolvaja/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"DevolvaJa/Preview Content\"";
 				DEVELOPMENT_TEAM = MLM92835RH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -435,7 +435,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.autonomus.devolvaja;
+				PRODUCT_BUNDLE_IDENTIFIER = com.autonomus.DevolvaJa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -443,14 +443,14 @@
 			};
 			name = Debug;
 		};
-		1641E00A2B5D9E3500B391A0 /* Release */ = {
+		164E781C2B5DBC590069CCE2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"devolvaja/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"DevolvaJa/Preview Content\"";
 				DEVELOPMENT_TEAM = MLM92835RH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -464,7 +464,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.autonomus.devolvaja;
+				PRODUCT_BUNDLE_IDENTIFIER = com.autonomus.DevolvaJa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -472,7 +472,7 @@
 			};
 			name = Release;
 		};
-		1641E00C2B5D9E3500B391A0 /* Debug */ = {
+		164E781E2B5DBC590069CCE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -483,16 +483,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.autonomus.devolvajaTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.autonomus.DevolvaJaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/devolvaja.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/devolvaja";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DevolvaJa.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DevolvaJa";
 			};
 			name = Debug;
 		};
-		1641E00D2B5D9E3500B391A0 /* Release */ = {
+		164E781F2B5DBC590069CCE2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -503,16 +503,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.autonomus.devolvajaTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.autonomus.DevolvaJaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/devolvaja.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/devolvaja";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DevolvaJa.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DevolvaJa";
 			};
 			name = Release;
 		};
-		1641E00F2B5D9E3500B391A0 /* Debug */ = {
+		164E78212B5DBC590069CCE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -521,16 +521,16 @@
 				DEVELOPMENT_TEAM = MLM92835RH;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.autonomus.devolvajaUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.autonomus.DevolvaJaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = devolvaja;
+				TEST_TARGET_NAME = DevolvaJa;
 			};
 			name = Debug;
 		};
-		1641E0102B5D9E3500B391A0 /* Release */ = {
+		164E78222B5DBC590069CCE2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -539,55 +539,55 @@
 				DEVELOPMENT_TEAM = MLM92835RH;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.autonomus.devolvajaUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.autonomus.DevolvaJaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = devolvaja;
+				TEST_TARGET_NAME = DevolvaJa;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1641DFDF2B5D9E3300B391A0 /* Build configuration list for PBXProject "devolvaja" */ = {
+		164E77F12B5DBC580069CCE2 /* Build configuration list for PBXProject "DevolvaJa" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1641E0062B5D9E3500B391A0 /* Debug */,
-				1641E0072B5D9E3500B391A0 /* Release */,
+				164E78182B5DBC590069CCE2 /* Debug */,
+				164E78192B5DBC590069CCE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1641E0082B5D9E3500B391A0 /* Build configuration list for PBXNativeTarget "devolvaja" */ = {
+		164E781A2B5DBC590069CCE2 /* Build configuration list for PBXNativeTarget "DevolvaJa" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1641E0092B5D9E3500B391A0 /* Debug */,
-				1641E00A2B5D9E3500B391A0 /* Release */,
+				164E781B2B5DBC590069CCE2 /* Debug */,
+				164E781C2B5DBC590069CCE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1641E00B2B5D9E3500B391A0 /* Build configuration list for PBXNativeTarget "devolvajaTests" */ = {
+		164E781D2B5DBC590069CCE2 /* Build configuration list for PBXNativeTarget "DevolvaJaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1641E00C2B5D9E3500B391A0 /* Debug */,
-				1641E00D2B5D9E3500B391A0 /* Release */,
+				164E781E2B5DBC590069CCE2 /* Debug */,
+				164E781F2B5DBC590069CCE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1641E00E2B5D9E3500B391A0 /* Build configuration list for PBXNativeTarget "devolvajaUITests" */ = {
+		164E78202B5DBC590069CCE2 /* Build configuration list for PBXNativeTarget "DevolvaJaUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1641E00F2B5D9E3500B391A0 /* Debug */,
-				1641E0102B5D9E3500B391A0 /* Release */,
+				164E78212B5DBC590069CCE2 /* Debug */,
+				164E78222B5DBC590069CCE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1641DFDC2B5D9E3300B391A0 /* Project object */;
+	rootObject = 164E77EE2B5DBC580069CCE2 /* Project object */;
 }

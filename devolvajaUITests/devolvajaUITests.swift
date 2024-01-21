@@ -1,13 +1,13 @@
 //
-//  devolvajaUITests.swift
-//  devolvajaUITests
+//  DevolvaJaUITests.swift
+//  DevolvaJaUITests
 //
 //  Created by Joao Leonardo Morganti on 21/01/24.
 //
 
 import XCTest
 
-final class devolvajaUITests: XCTestCase {
+final class DevolvaJaUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
