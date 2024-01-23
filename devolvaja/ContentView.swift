@@ -8,10 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var isActive = false
+    @State private var showSplash = true
     var body: some View {
         RouterView {
-            SplashScreenView()
+            if showSplash {
+                SplashScreenView(showSplash: $showSplash)
+            } else {
+                IdentificationView()
+            }
         }
     }
 }
