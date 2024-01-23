@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		160F9D872B5EA25E006DD357 /* RouterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160F9D862B5EA25E006DD357 /* RouterView.swift */; };
+		160F9D892B5EA31A006DD357 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160F9D882B5EA31A006DD357 /* Router.swift */; };
+		160F9D8E2B5EA814006DD357 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160F9D8D2B5EA814006DD357 /* SplashScreenView.swift */; };
+		160F9D902B5EA88B006DD357 /* IdentificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160F9D8F2B5EA88B006DD357 /* IdentificationView.swift */; };
+		160F9D922B5EA8D3006DD357 /* AccidentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160F9D912B5EA8D3006DD357 /* AccidentView.swift */; };
 		164E77FA2B5DBC580069CCE2 /* DevolvaJaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164E77F92B5DBC580069CCE2 /* DevolvaJaApp.swift */; };
 		164E77FC2B5DBC580069CCE2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164E77FB2B5DBC580069CCE2 /* ContentView.swift */; };
 		164E77FE2B5DBC590069CCE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 164E77FD2B5DBC590069CCE2 /* Assets.xcassets */; };
@@ -34,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		160F9D862B5EA25E006DD357 /* RouterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterView.swift; sourceTree = "<group>"; };
+		160F9D882B5EA31A006DD357 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		160F9D8D2B5EA814006DD357 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		160F9D8F2B5EA88B006DD357 /* IdentificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentificationView.swift; sourceTree = "<group>"; };
+		160F9D912B5EA8D3006DD357 /* AccidentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccidentView.swift; sourceTree = "<group>"; };
 		164E77F62B5DBC580069CCE2 /* DevolvaJa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevolvaJa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		164E77F92B5DBC580069CCE2 /* DevolvaJaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevolvaJaApp.swift; sourceTree = "<group>"; };
 		164E77FB2B5DBC580069CCE2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +81,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		160F9D852B5EA24C006DD357 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				160F9D862B5EA25E006DD357 /* RouterView.swift */,
+				160F9D882B5EA31A006DD357 /* Router.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		160F9D8A2B5EA6DA006DD357 /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				160F9D8D2B5EA814006DD357 /* SplashScreenView.swift */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		160F9D8B2B5EA708006DD357 /* Identification */ = {
+			isa = PBXGroup;
+			children = (
+				160F9D8F2B5EA88B006DD357 /* IdentificationView.swift */,
+			);
+			path = Identification;
+			sourceTree = "<group>";
+		};
+		160F9D8C2B5EA766006DD357 /* Accident */ = {
+			isa = PBXGroup;
+			children = (
+				160F9D912B5EA8D3006DD357 /* AccidentView.swift */,
+			);
+			path = Accident;
+			sourceTree = "<group>";
+		};
+		160F9D952B5F5384006DD357 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				160F9D8C2B5EA766006DD357 /* Accident */,
+				160F9D8B2B5EA708006DD357 /* Identification */,
+				160F9D8A2B5EA6DA006DD357 /* SplashScreen */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
 		164E77ED2B5DBC580069CCE2 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +147,8 @@
 		164E77F82B5DBC580069CCE2 /* DevolvaJa */ = {
 			isa = PBXGroup;
 			children = (
+				160F9D952B5F5384006DD357 /* Scenes */,
+				160F9D852B5EA24C006DD357 /* Router */,
 				164E77F92B5DBC580069CCE2 /* DevolvaJaApp.swift */,
 				164E77FB2B5DBC580069CCE2 /* ContentView.swift */,
 				164E77FD2B5DBC590069CCE2 /* Assets.xcassets */,
@@ -257,6 +312,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				160F9D922B5EA8D3006DD357 /* AccidentView.swift in Sources */,
+				160F9D892B5EA31A006DD357 /* Router.swift in Sources */,
+				160F9D872B5EA25E006DD357 /* RouterView.swift in Sources */,
+				160F9D902B5EA88B006DD357 /* IdentificationView.swift in Sources */,
+				160F9D8E2B5EA814006DD357 /* SplashScreenView.swift in Sources */,
 				164E77FC2B5DBC580069CCE2 /* ContentView.swift in Sources */,
 				164E77FA2B5DBC580069CCE2 /* DevolvaJaApp.swift in Sources */,
 			);
