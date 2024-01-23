@@ -11,11 +11,11 @@ struct ContentView: View {
     @State private var showSplash = true
     var body: some View {
         RouterView {
-            if showSplash {
-                SplashScreenView(showSplash: $showSplash)
-            } else {
+//            if showSplash {
+//                SplashScreenView(showSplash: $showSplash)
+//            } else {
                 IdentificationView()
-            }
+//            }
         }
     }
 }
