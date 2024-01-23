@@ -7,3 +7,17 @@
 */
 
 "IDENTIFICATION_NAVIGATION_TITLE" = "Identificação";
+
+"IDENTIFICATION_TITLE" = "Vejo que sua jornada chegou ao fim :(";
+"IDENTIFICATION_DESCRIPTION" = "Para a devolução do carro precisamos confirmar algumas informações!";
+
+"IDENTIFICATION_LICENSE_PLATE_TITLE" = "Insira a placa do carro";
+"IDENTIFICATION_LICENSE_PLACEHOLDER" = "001494-0";
+
+"IDENTIFICATION_ITEM_REFERENCE_MONTH" = "Data da jornada: ";
+"IDENTIFICATION_ITEM_PRICE" = "Preço da jornada: ";
+"IDENTIFICATION_ITEM_BRAND" = "Marca: ";
+"IDENTIFICATION_ITEM_MODEL" = "Modelo: ";
+"IDENTIFICATION_ITEM_MODEL_YEAR" = "Ano: ";
+"IDENTIFICATION_ITEM_FUEL" = "Combustível: ";
+"IDENTIFICATION_ITEM_LICENSE_PLATE" = "Placa: ";
