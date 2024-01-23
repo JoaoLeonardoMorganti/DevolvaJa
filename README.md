@@ -25,3 +25,9 @@ iOS app designed for simulation car return feature for a rental app when a car's
 
 - iOS 17.2+
 - Swift 5.0+
+
+## For test use as license plate:
+
+- `001494-0`
+- `005540-9`
+- `004530-6`
