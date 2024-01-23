@@ -16,6 +16,10 @@ struct IdentificationView: View {
                 router.navigateTo(.accidentView)
             }
         }
-        .navigationTitle("Identification")
+        .navigationTitle("IDENTIFICATION_NAVIGATION_TITLE")
     }
+}
+
+#Preview {
+    ContentView()
 }
